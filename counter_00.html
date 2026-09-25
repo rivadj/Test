@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatore LED 2 Cifre - Font WOFF2 Base64</title>
+
+    <style>
+        /* 1. Definizione del font WOFF2 incorporato in Base64 */
+        @font-face {
+            font-family: 'DSEG7Classic-Local';
+            /* Sostituisci la stringa qui sotto con il Base64 del tuo file .woff2 */
+            src: url('data:font/woff2;charset=utf-8;base64,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') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            /* Colore LED acceso  */
+            --led-on-color: #1aff1a;
+            /* Colore segmenti spenti di sfondo */
+            --led-off-color: #002200;
+            /* Sfondo */
+            --bg-color: #050505;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        /* Contenitore principale del Display */
+        .display-container {
+            position: relative;
+            background-color: #000;
+            padding: 40px 60px;
+            border-radius: 12px;
+            border: 4px solid #1c1c1c;
+            box-shadow: 0 0 60px rgba(0, 0, 0, 0.9) inset, 0 0 15px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+
+        /* Applicazione del font LED */
+        .led-font {
+            font-family: 'DSEG7Classic-Local', 'VT323', monospace;
+            font-style: italic; /* Inclinazione tipica dei LED */
+            font-size: 55vh;    /* Dimensione dinamica full-screen */
+            line-height: 1;
+            letter-spacing: 0.02em;
+        }
+
+        /* Strato spento di sfondo (88) */
+        .led-off {
+            color: var(--led-off-color);
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            z-index: 1;
+        }
+
+        /* Strato acceso del numero */
+        .led-on {
+            color: var(--led-on-color);
+            position: relative;
+            z-index: 2;
+            /* Bagliore luminoso (Glow Effect) */
+            text-shadow: 
+                0 0 12px rgba(26, 255, 26, 0.9),
+                0 0 25px rgba(26, 255, 26, 0.6),
+                0 0 45px rgba(26, 255, 26, 0.3);
+        }
+
+        /* Controlli in basso */
+        .controls-panel {
+            display: flex;
+            gap: 20px;
+            z-index: 10;
+        }
+
+        .btn {
+            background-color: #121212;
+            color: #ccc;
+            border: 2px solid #333;
+            font-size: 32px;
+            font-weight: bold;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn:hover {
+            background-color: #222;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+
+        #btn-plus { color: #4caf50; border-color: #2e7d32; }
+        #btn-minus { color: #f44336; border-color: #c62828; }
+
+        #btn-plus:hover { background-color: #1b5e20; color: white; }
+        #btn-minus:hover { background-color: #b71c1c; color: white; }
+
+        .info-label {
+            position: absolute;
+            bottom: 12px;
+            color: #444;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Display -->
+    <div class="display-container" id="display" title="Doppio click per impostare il numero">
+        <!-- Fondo spento -->
+        <div class="led-font led-off">88</div>
+        <!-- Cifre attive -->
+        <div class="led-font led-on" id="counter-digits">00</div>
+    </div>
+
+    <!-- Controlli -->
+    <div class="controls-panel">
+        <button class="btn" id="btn-minus" title="Decrementa (- o Freccia Giù)">-</button>
+        <button class="btn" id="btn-plus" title="Incrementa (+ o Freccia Su)">+</button>
+    </div>
+
+    <div class="info-label">Tasti + e - | Invio o Doppio Click per impostare cifra | F per Tutto Schermo</div>
+
+    <script>
+        let currentCount = 0;
+        const maxCount = 99;
+        const minCount = 0;
+
+        const digitsEl = document.getElementById('counter-digits');
+        const btnPlus = document.getElementById('btn-plus');
+        const btnMinus = document.getElementById('btn-minus');
+        const displayEl = document.getElementById('display');
+
+        function updateDisplay() {
+            digitsEl.textContent = String(currentCount).padStart(2, '0');
+        }
+
+        function increment() {
+            if (currentCount < maxCount) {
+                currentCount++;
+                updateDisplay();
+            }
+        }
+
+        function decrement() {
+            if (currentCount > minCount) {
+                currentCount--;
+                updateDisplay();
+            }
+        }
+
+        function promptForValue() {
+            const userInput = prompt(`Inserisci il valore iniziale (${minCount} - ${maxCount}):`, currentCount);
+            if (userInput === null) return;
+
+            const parsedValue = parseInt(userInput, 10);
+
+            if (!isNaN(parsedValue) && parsedValue >= minCount && parsedValue <= maxCount) {
+                currentCount = parsedValue;
+                updateDisplay();
+            } else {
+                alert(`Valore non valido. Inserisci un numero tra ${minCount} e ${maxCount}.`);
+            }
+        }
+
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(() => {});
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+
+        btnPlus.addEventListener('click', increment);
+        btnMinus.addEventListener('click', decrement);
+        displayEl.addEventListener('dblclick', promptForValue);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === '+' || e.key === 'ArrowUp') {
+                increment();
+            } else if (e.key === '-' || e.key === 'ArrowDown') {
+                decrement();
+            } else if (e.key === 'Enter') {
+                promptForValue();
+            } else if (e.key.toLowerCase() === 'f') {
+                toggleFullScreen();
+            }
+        });
+
+        updateDisplay();
+    </script>
+</body>
+</html>
